@@ -1,0 +1,262 @@
+/*Kerangka*/
+
+a{
+	cursor: pointer;
+}
+
+#container, body, html {
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+button, html, input, select, textarea {
+    color: #eae3c9;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+}
+#main-container {
+    position: absolute;
+    width: 100%;
+}
+/*Akhir Kerangka*/
+
+/*Header*/
+header#main-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    z-index: 999999999;
+    width: 100%;
+    height: auto;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;
+    -ms-perspective: 1200px;
+    -o-perspective: 1200px;
+    perspective: 1200px;
+}
+
+#main-header {
+    position: absolute;
+    min-width: 1160px;
+}
+
+header#main-header .site-header ul#header-actions {
+    float: right;
+    padding: 0 .75em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header#main-header.intro .site-header ul#header-actions li.separator:first-child {
+    display: none;
+}
+header#main-header .site-header ul#header-actions li {
+    float: left;
+    padding: .9em .5em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+header#main-header .site-header nav ul.list-site-nav li a, header#main-header .site-header ul#header-actions li a {
+    font-family: MuseoSansW01-700Italic,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #eae3c9;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header#main-header.intro .site-header ul#header-actions li a {
+    color: rgba(234,227,201,1);
+}
+header#main-header .site-header ul#header-actions li a {
+    font-size: .6875em;
+    display: block;
+}
+/*Akhir Header*/
+
+/*Kerangka Artikel*/
+
+li#share span.label {
+    margin-right: 5px;
+}
+article, section {
+    display: block;
+    width: 100%;
+}
+section {
+    display: block;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+}
+section {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+article {
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+}
+#container, article>div {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#intro {
+    width: 100%;
+    height: 100%;
+}
+section.current {
+    visibility: visible;
+    display: block;
+    z-index: 99;
+}
+#intro .content-overlay, .intro-loader bg.full {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../img/intro/cover.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#intro h1 {
+    font-size: 3.875em;
+}
+#intro .content {
+    width: 50%;
+    max-width: 900px;
+    position: relative;
+    color: #eae3c9;
+    margin: 0 auto;
+    padding-top: 7em;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*Akhir Kerangka Artikel*/
+
+/*Garis*/
+.h1-line {
+    width: 100%;
+    min-width: 396px;
+    display: block;
+    position: relative;
+    clear: both;
+    margin: 0 0 2.5em;
+}
+.h1-line .l-center {
+    height: 22px;
+    width: 396px;
+    background: url(../image/h1-title-cline.png) no-repeat 50% 50%;
+    margin: 0 auto -22px auto;
+}
+.h1-line .l-left {
+    height: 22px;
+    width: 24px;
+    position: absolute;
+    background: url(../image/h1-title-lline.png) no-repeat 50% bottom;
+    left: 50%;
+    margin: 0 0 0 -8px;
+}
+.h1-line .l-left.second {
+    margin: 0 0 0 -16px;
+    background: url(../image/h1-title-lline.png) no-repeat 50% bottom;
+}
+.h1-line .l-right {
+    height: 22px;
+    width: 24px;
+    margin: 0 0 0 -16px;
+    position: absolute;
+    left: 50%;
+    background: url(../image/h1-title-rline.png) no-repeat 50% bottom;
+}
+.h1-line .l-right.second {
+    margin: 0 0 0 -8px;
+    background: url(../image/h1-title-rline.png) no-repeat 50% bottom;
+}
+/*Akhir Garis*/
+
+/*Content*/
+.content {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+.text-content {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+.content p {
+    font-family: 'Museo Sans W01 500',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.00em;
+    margin: 0 0 1.25em;
+    line-height: 1.25em;
+}
+#badge {
+    width: 151px;
+    height: 150px;
+    display: inline-block;
+    background: url(../image/badge2.png) no-repeat 50% 50%;
+    margin: 0 0 1.25em;
+    background-size: 100% 100%;
+}
+/*Akhir Content*/
+/*tombol*/
+.button.outline {
+    background: 0 0;
+    border: 1px solid #eae3c9;
+}
+.button.outline:hover{
+	outline: 0;
+	text-decoration: none;
+    color:#fff;
+    background-color: rgba(0,0,0,.5);
+    -webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+.button {
+    position: relative;
+    font-family: 'Museo Sans W01 700',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.125em;
+    color: #eae3c9;
+    display: inline-block;
+    padding: .65em 2.8em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*Akhir Tombol*/

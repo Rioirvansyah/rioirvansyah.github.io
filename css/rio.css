@@ -1,0 +1,423 @@
+    /* Default*/
+a,a:hover{
+	text-decoration: none;
+}
+html {
+    height: 100%;
+    background-color: transparent;
+}
+li{
+	list-style: none;
+}
+ul, ol, dl {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 1.25em;
+    list-style-position: outside;
+    font-family: inherit;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+p {
+    font-family: inherit;
+    font-weight: normal;
+    font-size: 1.6em;
+    line-height: 1.6;
+    margin-bottom: 1.25em;
+    text-rendering: optimizeLegibility;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+hr {
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #8b8b8b;
+    margin: 0 auto 50px auto;
+    max-width: 400px;
+    position: relative;
+}
+
+hr:after {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    content: "";
+    bottom: -4px;
+    left: 50%;
+    margin-left: -5px;
+    background-color: #8b8b8b;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+}
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #5b5b5b;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-top: 0px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+/* Akhir Default*/
+
+/* Menu Scroll fixed */
+.fixed {
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+/* Container Menu */
+
+.contain-to-grid {
+    width: 100%;
+    background: #111;
+}
+/* Akhir Container Menu */
+
+/* Top Bar Menu */
+.contain-to-grid .top-bar {
+    max-width: 100%;
+
+}
+.top-bar:before, .top-bar:after {
+    content: " ";
+    display: table;
+}
+.top-bar .title-area {
+    position: relative;
+    margin: 0;
+    float: left;
+}
+header .top-bar {
+    height: 90px;
+
+}
+header .top-bar {
+    background-color: #fff;
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+.top-bar {
+    background: #111;
+    overflow: visible;
+}
+
+.top-bar {
+    overflow: hidden;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    background: #111;
+}
+.top-bar ul {
+    margin-bottom: 0;
+    list-style: none;
+}
+.top-bar .name {
+    height: 45px;
+    margin: 0;
+    font-size: 16px;
+}
+.top-bar .name h1 {
+    line-height: 45px;
+    font-size: 1.0625em;
+    margin: 0;
+}
+.top-bar .title-area .name {
+    height: 90px;
+}
+.top-bar .title-area h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 300;
+}
+header .top-bar .title-area h1 a {
+    padding: 0px 30px;
+    letter-spacing: -6px;
+    font-size: 2.3em;
+    line-height: 90px;
+}
+
+header .top-bar .title-area h1 span {
+    line-height: 90px;
+    font-size: 1.8em;
+    position: relative;
+    top: -2px;
+}
+header .top-bar .top-bar-section {
+    color: #ccc;
+}
+header .top-bar .top-bar-section ul {
+    background-color: #fff;
+    padding-right: 4%;
+}
+.top-bar-section ul {
+    width: auto;
+    height: auto !important;
+    display: inline;
+}
+.top-bar-section ul li {
+    float: left;
+}
+.right {
+    float: right !important;
+}
+header .top-bar .top-bar-section ul li a {
+    line-height: 90px;
+}
+header .top-bar .top-bar-section ul li a {
+    font-weight: 300;
+    font-family: 'Julius Sans One', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: transparent;
+    color: #5b5b5b;
+    padding: 0 6px;
+}
+header .top-bar .top-bar-section ul li a:hover {
+    color: #0000ff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+/* Akhir Top Bar Menu */
+
+
+/* CONTENT + GAMBAR */
+
+#hero_cont {
+    position: relative;
+}
+#hero_cont .hero_txt {
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 7%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+} 
+#hero_cont .hero_txt h2 {
+    font-size:7.5em;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.2em;
+}
+#hero_cont .hero_txt h2 {
+    font-weight: normal;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #fff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#hero_cont .hero_txt h2 small {
+    color: #76926f;
+}
+#hero_cont .hero_txt hr {
+    margin-bottom: 30px;
+}
+#hero_cont .hero_txt p {
+    letter-spacing: 0.3em;
+}
+.hero_txt + p {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 7%;
+    z-index: 2;
+}
+.hero_txt + p a {
+    color: #ffffff;
+}
+#hero_cont .hero_img img {
+    width: 100%;
+    height: auto;
+    margin-top: 90;
+}
+/* Akhir CONTENT + GAMBAR */
+
+/* PANEL CONTENT WHITE */
+
+.pagepanel.white {
+    background-color: #fff;
+}
+.pagepanel {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.pagepanel .center {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.center {
+    max-width: 1000px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    position: relative;
+}
+.pagepanel h2 {
+    font-size: 5em;
+}
+.pagepanel h2 {
+    font-weight: 300;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 0px;
+    margin: 0px 0 20px 0;
+    padding: 0 0 0px 0;
+}
+.pagepanel.white.down_arrow:after {
+    border-top-color: #fff;
+}
+
+.pagepanel.down_arrow:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 20px solid #76926f;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    left: 50%;
+    margin-left: -20px;
+    bottom: -19px;
+    z-index: 2;
+}
+
+/* AKHIR PANEL CONTENT WHITE */
+
+/* PANEL CONTENT BLACK */
+
+.pagepanel.black {
+    background: #000000;
+    color: #5b5b5b;
+}
+.pagepanel.black.down_arrow:after {
+    border-top-color: #000000;
+}
+.hidden-phone{
+    font-size: 15;
+}
+
+/* PANEL CONTENT BLACK */
+
+
+/* ISI PENDIDIKAN */
+
+.experience{
+    color:#949494;
+}
+
+/* AkHIR PENDIDIKAN */
+
+/* ABILITIES */
+
+/* AKHIR ABILITIES */
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul > li .ability-title {
+    font-size: 13;
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+}
+ul > li .ability-score .glyphicon.filled {
+    color: #22A39F;
+}
+ul > li .ability-score .glyphicon {
+    color: #DFE0E0;
+    font-size: 17px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Contact */
+.wrapcontact {
+    height:175px;
+    width:auto;
+}
+.wrapcontact h5 {
+    color: #4f4f4f;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px 0 10px 0;
+}
+.wrapcontact h4 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fa{
+    width: 50px;
+    height: 50px;
+
+}
+/* Akhir Contact */
+
+/* FOOTERNYA */
+
+footer {
+    background-color: #dfdfdf;
+    text-align: center;
+    position: relative;
+    padding: 40px 15px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer p span {
+    display: block;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+footer:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #dfdfdf;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    left: 50%;
+    margin-left: -20px;
+    top: -19px;
+    z-index: 2;
+}
+/* AKHIR FOOTER */
